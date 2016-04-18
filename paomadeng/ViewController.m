@@ -25,7 +25,7 @@
     [super viewDidLoad];
     
     //设置显示数据，也可数据库获得
-    NSMutableArray *iAsgArray = [[NSMutableArray alloc] initWithObjects:@"懒人IOS代码库", @"www.lanrenios.com", @"后天大暴雨 风力4－6级 请关闭好门窗", nil];
+    NSMutableArray *iAsgArray = [[NSMutableArray alloc] initWithObjects:@"www.baidu.com", @"跑起来", @"后天大暴雨 风力4－6级 请关闭好门窗", nil];
     
     _statusView = [[AMN_StatusViewControl alloc] init];
     _statusView.msgArray = iAsgArray;
